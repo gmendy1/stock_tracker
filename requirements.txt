@@ -1,0 +1,7 @@
+fastapi>=0.111.0
+uvicorn[standard]>=0.29.0
+sqlmodel>=0.0.18
+python-jose[cryptography]>=3.3.0   # JWT
+passlib[bcrypt]>=1.7.4             # Password hashing
+pydantic-settings>=2.2.0           # Settings management
+python-multipart>=0.0.9            # Form data (OAuth2 login form)
